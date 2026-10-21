@@ -2,6 +2,8 @@
 
 A simple Python script that generates general Dobble games of order $q = p^m$, with $p$ prime and $m \geq 1$ integer.
 
+In this document I have explained the mathematical formulation of Dobble games that I used: [download pdf](The math of Dobble.pdf) 
+
 ## Requirements
 * Python 3.x
 * Library `galois` to perform finite field arithmetic:
