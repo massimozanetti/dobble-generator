@@ -50,7 +50,7 @@ def dobble(p, m):
 
 if __name__ == "__main__":
     
-    p = sys.argv[1]
-    m = sys.argv[2]
+    p = int(sys.argv[1])
+    m = int(sys.argv[2])
 
     dobble(p, m)
