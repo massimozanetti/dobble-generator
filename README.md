@@ -1,6 +1,6 @@
 # Dobble generator
 
-A simple and lightweight Python script that generates general Dobble games of prime power order.
+A simple Python script that generates general Dobble games of order $q = p^m$, with $p$ prime and $m > 1$ integer.
 
 ## Requirements
 * Python 3.x
@@ -22,7 +22,7 @@ pip install galois
 
 ### Option 2: Clone the Repository
 ```bash
-git clone https://github.com
+git clone https://github.com/massimozanetti/dobble-generator.git
 cd YOUR_REPOSITORY_NAME
 python dobble.py 3 2
 ```
