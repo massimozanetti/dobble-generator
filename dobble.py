@@ -3,6 +3,7 @@
 """
 
 import sys
+import argparse
 import numpy as np
 import galois
 np.set_printoptions(threshold=sys.maxsize)
@@ -47,10 +48,16 @@ def dobble(p, m):
 
 
 
-
 if __name__ == "__main__":
-    
-    p = int(sys.argv[1])
-    m = int(sys.argv[2])
 
-    dobble(p, m)
+  parser = argparse.ArgumentParser(description="Generator of Dobble game of prime power order p^m",
+                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+  
+  parser.add_argument("p", default=7, type=int, help="Prime base")
+  parser.add_argument("m", default=1, type=int, help="Power exponent")
+  args = vars(parser.parse_args())
+
+  p = args["p"]
+  m = args["m"]
+
+  dobble(p, m)
