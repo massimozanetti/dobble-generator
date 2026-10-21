@@ -1,4 +1,4 @@
-""" This implements the formula from Theorem 1, there are more efficient ways
+""" A script that generates the lines of a finite projective plane of order p^m, which is equivalent to a general Dobble game (the classic one corresponds to p=7, m=1).
 
 """
 
@@ -9,7 +9,7 @@ np.set_printoptions(threshold=sys.maxsize)
 
 
 
-def dobbleQ(p, m):
+def dobble(p, m):
 
   Q = p**m          # order of the finite field
   N = Q*(Q+1)+1     # number of points and lines (symbols and cards)
@@ -50,7 +50,7 @@ def dobbleQ(p, m):
 
 if __name__ == "__main__":
     
-    p = 2
-    m = 2
+    p = sys.argv[1]
+    m = sys.argv[2]
 
-    dobbleQ(p, m)
+    dobble(p, m)
