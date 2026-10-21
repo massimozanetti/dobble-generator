@@ -12,7 +12,7 @@ pip install galois
 ## How to Use
 
 ### Option 1: Quick Copy & Paste (Recommended)
-1. Open [script.py](dobble.py) in this repository.
+1. Open [dobble.py](dobble.py) in this repository.
 2. Click the **"Copy raw contents"** icon in the top-right corner of the code box.
 3. Paste the code into a local file named `dobble.py` on your computer.
 4. Run it via terminal:
