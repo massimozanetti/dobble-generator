@@ -1,4 +1,4 @@
-""" A script that generates the lines of a finite projective plane of order q=p^m, with p prime and m>1 integer.
+""" A script that generates the lines of a finite projective plane of order q=p^m, with p prime and m>0 integer.
     This is equivalent to a general Dobble game (the classic one corresponds to p=7, m=1).
 
 """
