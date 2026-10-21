@@ -17,11 +17,11 @@ pip install galois
    python dobble.py -h
    usage: dobble.py [-h] p m
 
-   Dobble argument parser
+   Generator of Dobble game of prime power order q=p^m
    
    positional arguments:
-     p           Prime base
-     m           Power exponent
+     p           prime base
+     m           power exponent
    
    options:
      -h, --help  show this help message and exit
