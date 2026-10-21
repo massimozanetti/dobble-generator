@@ -54,8 +54,8 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser(description="Generator of Dobble games of prime power order q=p^m",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
   
-  parser.add_argument("p", default=7, type=int, help="Prime base")
-  parser.add_argument("m", default=1, type=int, help="Power exponent")
+  parser.add_argument("p", default=7, type=int, help="prime base")
+  parser.add_argument("m", default=1, type=int, help="power exponent")
   args = vars(parser.parse_args())
 
   p = args["p"]
