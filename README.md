@@ -1,4 +1,4 @@
-# Dobble generator
+# Dobble game generator
 
 A simple Python script that generates general Dobble games of order $q = p^m$, with $p$ prime and $m > 1$ integer.
 
@@ -11,21 +11,26 @@ pip install galois
 
 ## How to Use
 
-### Option 1: Quick Copy & Paste (Recommended)
-1. Open [dobble.py](dobble.py) in this repository.
-2. Click the **"Copy raw contents"** icon in the top-right corner of the code box.
-3. Paste the code into a local file named `dobble.py` on your computer.
-4. Run it via terminal:
+1. Copy the [dobble.py](dobble.py) script into a local file named `dobble.py` on your computer.
+2. See helper for the arguments:
+   ```bash
+   python dobble.py -h
+   usage: dobble.py [-h] p m
+
+   Dobble argument parser
+   
+   positional arguments:
+     p           Prime base
+     m           Power exponent
+   
+   options:
+     -h, --help  show this help message and exit
+
+   ```
+3. Generate a Dobble game of order $q=3^2$:
    ```bash
    python dobble.py 3 2
    ```
-
-### Option 2: Clone the Repository
-```bash
-git clone https://github.com/massimozanetti/dobble-generator.git
-cd YOUR_REPOSITORY_NAME
-python dobble.py 3 2
-```
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
