@@ -17,7 +17,7 @@ pip install galois
    python dobble.py -h
    usage: dobble.py [-h] p m
 
-   Generator of Dobble game of prime power order q=p^m
+   Generator of Dobble games of prime power order q=p^m
    
    positional arguments:
      p           prime base
