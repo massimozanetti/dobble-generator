@@ -1,6 +1,6 @@
 # Dobble games generator
 
-A simple Python script that generates general Dobble games of order $q = p^m$, with $p$ prime and $m > 1$ integer.
+A simple Python script that generates general Dobble games of order $q = p^m$, with $p$ prime and $m \geq 1$ integer.
 
 ## Requirements
 * Python 3.x
