@@ -1,4 +1,5 @@
-""" A script that generates the lines of a finite projective plane of order p^m, which is equivalent to a general Dobble game (the classic one corresponds to p=7, m=1).
+""" A script that generates the lines of a finite projective plane of order q=p^m, with p prime and m>1 integer.
+    This is equivalent to a general Dobble game (the classic one corresponds to p=7, m=1).
 
 """
 
@@ -50,7 +51,7 @@ def dobble(p, m):
 
 if __name__ == "__main__":
 
-  parser = argparse.ArgumentParser(description="Generator of Dobble game of prime power order p^m",
+  parser = argparse.ArgumentParser(description="Generator of Dobble games of prime power order q=p^m",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
   
   parser.add_argument("p", default=7, type=int, help="Prime base")
