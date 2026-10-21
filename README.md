@@ -5,9 +5,9 @@ A simple Python script that generates general Dobble games of order $q = p^m$, w
 ## Requirements
 * Python 3.x
 * Library `galois` to perform finite field arithmetic.
-```bash
-pip install galois
-```
+  ```bash
+  pip install galois
+  ```
 
 ## How to Use
 
