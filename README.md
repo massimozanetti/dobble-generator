@@ -32,5 +32,5 @@ A simple Python script that generates general Dobble games of order $q = p^m$, w
    python dobble.py 3 2
    ```
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
