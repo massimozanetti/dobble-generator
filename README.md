@@ -2,7 +2,7 @@
 
 A simple Python script that generates general Dobble games of order $q = p^m$, with $p$ prime and $m \geq 1$ integer.
 
-Here I have explained the mathematical formulation of Dobble games: [math_of_dobble.pdf](math_of_dobble.pdf) 
+Here I have explained the mathematical formulation of Dobble games: [dobble.pdf](dobble.pdf) 
 
 ## Requirements
 * Python 3.x
